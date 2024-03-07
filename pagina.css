@@ -1,0 +1,131 @@
+@font-face {
+    font-family: Lemands;
+    src: url(Lemands.ttf.otf);
+}
+.title {
+color: darkred;
+font-size:80px;
+font-family: Lemands;
+text-align: left;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, 'Gill Sans',monospace, 'Trebuchet MS';
+    font-size: x-large;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    background-image: url('IMAGENES/313339837_666759521478406_4414810187503608686_n.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.page-container {
+    width: 1500px;
+    height: 1000px;
+    margin: 25px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    background: rgba(158, 2, 2, 0.753); /* Color de fondo transparente */
+    width: 100%;
+    max-width: 12000px;
+    margin: auto;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 20px;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li:nth-child(1) a:hover {
+    background: black;
+}
+
+.menu li:nth-child(2) a:hover {
+    background: gray;
+}
+
+.menu li:nth-child(3) a:hover {
+    background: #81b71a;
+}
+
+.menu li:nth-child(4) a:hover {
+    background: orange;
+}
+
+.menu li:nth-child(5) a:hover {
+    background: red;
+}
+
+footer {
+    margin-top:550px;
+    padding-top: 10px;
+    border-top: 3px solid darkred;
+    text-align: center;
+}
+
+footer p {
+    margin: 2px;
+    color: darkred;
+}
+.txtSub {
+    font-size: 36px;
+    margin-left: 25px;
+    animation: colorChange 1s infinite alternate;
+}
+.contenido {
+    display: flex;
+    align-items: center;
+}
+.txtPrincipal{
+    text-align: left;
+
+}
+.imagen {
+    margin-bottom: 20px; /* Espacio entre las imágenes */
+    animation: cambioDeColor 0.8s infinite alternate; /* Aplicar la animación */
+}
+
+.imagen img {
+    border-radius: 10px;
+    border: 2px solid darkred;
+    width: 60%; /* Para que las imágenes se ajusten al ancho del contenedor */
+}
+
+/* Estilos para las descripciones de las imágenes */
+.descripcion {
+    margin-top: 10px; /* Espacio entre la imagen y la descripción */
+    font-size: 16px;
+    color: #333;
+}
+@keyframes cambioDeColor {
+    0% {
+        border-color: darkred; /* Color inicial del borde */
+    }
+    25%{
+        border-color: black;
+    }
+    50%{
+        border-color: rgb(255, 127, 155);
+    }
+    50%{
+        border-color:gray;
+    }
+    100% {
+        border-color: red; /* Color final del borde */
+    }
+}

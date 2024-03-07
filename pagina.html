@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pagina.css">
+    <title>MI PRIMERA PAGINA WEB</title>
+    <style>
+        .imagen-container {
+            display: flex;
+            margin-top: 30px;
+            justify-content: space-between;
+        }
+
+        .imagen-container .imagen {
+            flex: 0 0 calc(33.33% - 20px); /* 33.33% de ancho para cada imagen, menos el espacio entre ellas */
+        }
+
+        .imagen img {
+            border-radius: 10px;
+            border: 2px solid darkred;
+            width: 100%; /* Para que las imágenes se ajusten al ancho del contenedor */
+        }
+
+        .descripcion {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-container">
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="ACERCADE.HTML">Acerca de</a></li>
+            <li><a href="https://www.spotify.com/">Spotify</a></li>
+            <li><a href="https://www.google.com.mx/maps/place/Centro+De+Bachillerato+Tecnologico+Industrial+Y+De+Servicios+Num.+205/@16.4386309,-95.0104731,17z/data=!3m1!4b1!4m6!3m5!1s0x859554faa0179df5:0x8c39b6f872c34037!8m2!3d16.4386309!4d-95.0078982!16s%2Fg%2F11b88xkyhh?entry=ttu">Google
+                    Maps</a></li>
+            <li><a href="https://youtu.be/MJkdaVFHrto?si=5pnINr6yQa6mOa4S">Videos</a>
+            </li>
+        </ul>
+        <br>
+        <div class="title">Mi Sitio Web - CBTis No.205</div>
+        <div class="txtPrincipal">Hola, me llamo José Ricardo Ruiz Rosas, soy del 4L de la especialidad de programación, este día entrego una página web.<br>
+        </div>
+        <div class="imagen-container">
+            <div class="imagen">
+                <img src="IMAGENES/logocuadrado.png" alt="Imagen 1">
+                <div class="descripcion"><strong>LOGOTIPO DEL CENTRO EDUCATIVO.</strong>.</div>
+            </div>
+            <div class="imagen">
+                <img src="IMAGENES/WhatsApp Image 2024-03-07 at 00.55.43.jpeg" alt="Imagen 2">
+                <div class="descripcion"><strong>ACTO CIVICO POR INICIO DE CICLO ESCOLAR.</strong></div>
+            </div>
+            <div class="imagen">
+                <img src="IMAGENES/WhatsApp Image 2024-03-07 at 00.55.43 (1).jpeg" alt="Imagen 3">
+                <div class="descripcion"><strong>BELLAS AREAS DE COMEDORES.</strong></div>
+            </div>
+        </div>
+        <footer style="text-align: left; margin-top: 30px;">
+            <p>Datos del creador:</p>
+            <br>
+            <p>Email: josericardoruizrosas@gmail.com</p>
+            <p>Teléfono: +52 971 114 6515</p>
+            <p>Instagram: @Josepillin</p>
+        </footer>
+    </div>
+</body>
+</html>
